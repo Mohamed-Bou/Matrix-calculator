@@ -21,7 +21,7 @@ body{
     width: 100%;
     border-radius: 20px;
 
-}
+} 
 .options{
     box-shadow: 10px 10px 10px 0px black;
     grid-column-start: 2;
@@ -241,3 +241,18 @@ body{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
+
+#note{
+    visibility:collapse;
+    height:0px;
+}
+
+@media only screen and (max-width: 1200px) {
+   #note{
+       visibility:visible;
+   }
+   .grid-container{
+       visibility:hidden;
+   }
+
+} 
