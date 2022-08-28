@@ -1,7 +1,7 @@
 # Matrix-calculator
 
 A web application to help users perform matrix manipulation with ease and also solve systems of linear equations.
-build using html,css and javaScript
+built using html,css and javaScript
 you can visited onilne <a href="https://matrixdeplo.vercel.app/">here</a>
 
 <p align="center">
