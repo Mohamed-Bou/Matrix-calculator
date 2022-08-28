@@ -3,24 +3,24 @@ function Form2(optionName,actionD){
     $("#contenu").append("<div id='form2'></div>");
     $("#form2").append("<div id='titre'>"+optionName+"</div>");
     $("#form2").append("<div id='btnA-container'></div>");
-    $("#btnA-container").append("<button class='btn' id='btnA'>dim de A </button>");  // pour saisir dim de A
+    $("#btnA-container").append("<button class='btn' id='btnA'>dim of A </button>");  // pour saisir dim de A
     $("#form2").append("<div id='btnB-container'></div>");
-    $("#btnB-container").append("<button class='btn' id='btnB'> dim de B</button>");  //                  de B
+    $("#btnB-container").append("<button class='btn' id='btnB'> dim of B</button>");  //                  de B
     $("#form2").append("<div id='A-container'></div>"); // 
     $("#form2").append("<div id='B-container'></div>");
     $("#form2").append("<div id='btnCalculer-container'></div>");
-    $("#btnCalculer-container").append("<button class='btn' id='Calculer'>Calculer</button>")
+    $("#btnCalculer-container").append("<button class='btn' id='Calculer'>Solve</button>")
     $("#form2").append("<div id='Resultat-container'></div>");
     // 
     $("#btnA").click('click',function(){
-        let z=prompt("entrer dimension de A sous forme: ","n*p").toString();
+        let z=prompt("dimensions of A ","n*p").toString();
         let l=z.split("*");
         let n=l[0]-"0";
         let p=l[1]-"0";
         creatematrice("A-container","A",n,p);
     })
     $("#btnB").click('click',function(){     
-        let z=prompt("entrer dimension de A sous forme: ","n*p").toString();
+        let z=prompt("dimensions of A ","n*p").toString();
         let l=z.split("*");
         let n=l[0]-"0";
         let p=l[1]-"0";
@@ -53,19 +53,19 @@ function Form2(optionName,actionD){
     })
 }
 function Form1(optionName,actionD){
-    // creation de contenu (1 matrices input et une comme resultat +2button);
+    // creation de contenu (1 matrice input et une comme resultat +2button);
     $("#contenu").append("<div id='form2'></div>");
     $("#form2").append("<div id='titre'>"+optionName+"</div>");
     $("#form2").append("<div id='btnA-container'></div>");
-    $("#btnA-container").append("<button class='btn' id='btnA'>dim de A </button>");
+    $("#btnA-container").append("<button class='btn' id='btnA'>dim of A </button>");
     $("#form2").append("<div id='A-container'></div>"); 
     $("#form2").append("<div id='btnCalculer-container'></div>");
-    $("#btnCalculer-container").append("<button class='btn' id='Calculer'>Calculer</button>")
+    $("#btnCalculer-container").append("<button class='btn' id='Calculer'>Solve</button>")
     $("#form2").append("<div id='Resultat-container'></div>");
 
     //
     $("#btnA").click('click',function(){
-        let z=prompt("entrer dimension de A sous forme: ","n*p").toString();
+        let z=prompt("dimensions of A ","n*p").toString();
         let l=z.split("*");
         let n=l[0]-"0";
         let p=l[1]-"0";
@@ -115,16 +115,16 @@ function Form3(optionName,actionD){
     $("#contenu").append("<div id='form2'></div>");
     $("#form2").append("<div id='titre'>"+optionName+"</div>");
     $("#form2").append("<div id='btnA-container'></div>");
-    $("#btnA-container").append("<button class='btn' id='btnA'>dim de A </button>");  // pour saisir dim de A
+    $("#btnA-container").append("<button class='btn' id='btnA'>dim of A </button>");  // pour saisir dim de A
     $("#form2").append("<div id='btnB-container'></div>");
     $("#form2").append("<div id='A-container'></div>"); // 
     $("#form2").append("<div id='B-container'></div>");
     $("#form2").append("<div id='btnCalculer-container'></div>");
-    $("#btnCalculer-container").append("<button class='btn' id='Calculer'>Calculer</button>")
+    $("#btnCalculer-container").append("<button class='btn' id='Calculer'>Solve</button>")
     $("#form2").append("<div id='Resultat-container'></div>");
     // 
     $("#btnA").click('click',function(){
-        let z=prompt("entrer dimension de A sous forme: ","n*p").toString();
+        let z=prompt("dimensions of A ","n*p").toString();
         let l=z.split("*");
         let n=l[0]-"0";
         let p=l[1]-"0";
